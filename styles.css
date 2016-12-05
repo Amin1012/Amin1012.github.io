@@ -306,12 +306,14 @@ body .demo-blog {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  direction: ltr;
   font-weight: 500;
 }
 .demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button {
   color: white;
   text-decoration: none;
 }
+
 .demo-blog .demo-blog__posts > .demo-nav .mdl-button {
   color: rgba(0,0,0,0.54);
   background-color: white;
@@ -329,6 +331,7 @@ body .demo-blog {
 }
 .demo-blog .mdl-card h3 {
   margin: 0;
+  font-family: 'Vazir', sans-serif;
 }
 .demo-blog .mdl-card h3 a {
   text-decoration: none;
