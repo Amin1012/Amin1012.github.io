@@ -79,7 +79,9 @@ body .demo-blog {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-
+.bgcard{
+	  background-image: url("images/logo.png");
+}
 .demo-blog.mdl-layout .mdl-layout__content {
   padding-top: 230px;
   position: relative;
@@ -531,7 +533,7 @@ body .demo-blog {
 
 ::-webkit-scrollbar-thumb {
  
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122, 153, 217)), color-stop(0.72, rgb(73, 125, 189)), color-stop(0.86, rgb(28, 58, 148)));
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44,rgb(186, 187, 188)), color-stop(0.72,rgb(88, 91, 94)), color-stop(0.86,rgb(0, 4, 17)));
 }
 .demo-blog--blogpost .comments .comment > .comment__actions {
   display: -webkit-box;
